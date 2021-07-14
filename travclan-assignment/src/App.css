@@ -1,7 +1,15 @@
 .App {
   text-align: center;
 }
-
+.margin-60{
+  width: 60%;
+  margin: 0 auto;
+}
+@media screen and(max-width : 768px) {
+  .margin-80{
+    width: 100%;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
